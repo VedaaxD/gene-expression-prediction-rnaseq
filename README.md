@@ -98,20 +98,19 @@ Transformer significantly outperforms baseline MLP.
 ## Project Structure
 .
 ├── data/
-│ ├── landmark_genes.txt
-│ ├── target_genes.txt
-│ └── scaler.pkl
+│   ├── landmark_genes.txt
+│   ├── target_genes.txt
+│   └── scaler.pkl
 │
 ├── outputs/
-│ ├── mlp/
-│ └── transformer/
+│   ├── mlp/
+│   └── transformer/
 │
 ├── data_prep.py
 ├── train_mlp.py
 ├── train_transformer.py
 ├── requirements.txt
 └── README.md
-
 
 ---
 
@@ -131,16 +130,18 @@ python train_transformer.py
 
 
 ## Tech Stack
-Python
-PyTorch
-NumPy / Pandas
-Scikit-learn
-Matplotlib
-Captum (for interpretability)
+
+- Python
+- PyTorch
+- NumPy & Pandas
+- Scikit-learn
+- Matplotlib
+- Captum (for model interpretability)
 
 ## Key Contributions
-Built end-to-end ML pipeline for gene expression prediction
-Compared MLP vs Transformer architectures
-Applied self-attention to biological sequence-like data
-Integrated model interpretability using Captum
-Achieved high predictive performance (R² ~ 0.997)
+- Built an end-to-end machine learning pipeline for gene expression prediction using RNA-seq data
+- Developed and compared MLP and Transformer-based architectures
+- Applied self-attention mechanisms to capture gene–gene interactions
+- Integrated model interpretability using Captum (Integrated Gradients)
+- Performed gene-level evaluation using Pearson correlation and error analysis
+- Achieved high predictive performance (R² ≈ 0.997, Pearson r ≈ 0.987)
