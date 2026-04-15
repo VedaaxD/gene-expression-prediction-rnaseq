@@ -1,7 +1,5 @@
 """
-DAY 1 — data_prep.py
-=====================
-Downloads GTEx v8 gene expression data and prepares tensors for model training.
+Download GTEx v8 gene expression data and prepares tensors for model training.
 
 What this does:
     1. Downloads GTEx median TPM matrix (tissues × genes)
