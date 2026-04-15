@@ -1,6 +1,4 @@
 """
-DAY 2 — train_mlp.py
-=====================
 Trains an MLP to predict gene expression (target genes) from landmark genes.
 
 Architecture:
