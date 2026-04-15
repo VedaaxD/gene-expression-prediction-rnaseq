@@ -96,6 +96,7 @@ Transformer significantly outperforms baseline MLP.
 ---
 
 ## Project Structure
+```
 .
 ├── data/
 │   ├── landmark_genes.txt
