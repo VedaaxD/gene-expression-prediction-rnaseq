@@ -112,7 +112,7 @@ Transformer significantly outperforms baseline MLP.
 ├── train_transformer.py
 ├── requirements.txt
 └── README.md
----
+```
 
 ## How to Run
 
